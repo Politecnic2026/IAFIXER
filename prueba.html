@@ -1,0 +1,8 @@
+import puppeteer from 'puppeteer';
+
+const browser = await puppeteer.launch();
+const page = await browser.newPage();
+await page.goto('https://expanded-dance-451712.framer.app/');
+const html = await page.content();
+console.log(html);
+await browser.close();

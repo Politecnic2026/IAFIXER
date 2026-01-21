@@ -1,0 +1,17 @@
+Por favor, oculta completamente los siguientes elementos de Framer en mi archivo HTML:
+
+1. El badge "Made in Framer" (div con id "__framer-badge-container")
+2. La barra de editor de Framer (div con id "__framer-editorbar-container" y el iframe "__framer-editorbar")
+
+Añade el siguiente CSS en la sección <style> del <head>:
+
+#__framer-badge-container,
+#__framer-editorbar-container,
+#__framer-editorbar {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+Asegúrate de que estos elementos no sean visibles en ningún dispositivo ni resolución de pantalla.
