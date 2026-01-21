@@ -10,8 +10,8 @@ await page.goto(url, { waitUntil: 'networkidle0' });
 
 const html = await page.content();
 
-fs.writeFileSync('pagina_renderizada4.html', html, 'utf-8');
+fs.writeFileSync('pagina_renderizada5.html', html, 'utf-8');
 
-console.log('✅ pagina_renderizada.html creada');
+console.log('✅ pagina_renderizada5.html creada');
 
 await browser.close();
