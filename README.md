@@ -1,10 +1,10 @@
-# Hyxer App - Landing Pages
+# IA FIXER - Landing Pages
 
-Proyecto de landing pages para aplicaciones fitness.
+Proyecto de landing pages para IA FIXER.
 
 ## Páginas disponibles
 
-- `IAFIXER.html` - Página principal
+- `IAFIXER.html` - Página principal de IA FIXER
 - `pagina_renderizada2.html` - Hyxer App
 - `pagina_renderizada3.html` - Atoks Mobile App
 - `pagina_renderizada4.html` - Página adicional
